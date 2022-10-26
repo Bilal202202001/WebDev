@@ -1,0 +1,167 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2';
+}
+
+/* NavBar */
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#navbar {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    width: 100%;
+}
+
+/* Logo  */
+#logo {
+    margin: 5px 20px;
+}
+
+#logo img {
+    /* display: inline; */
+    width: 50px;
+    height: 50px;
+    filter: invert(100%);
+}
+
+/* Menus  */
+#menus {
+    display: flex;
+}
+
+#menus li {
+    list-style: none;
+    font-size: 1.1rem;
+    /* border: 1px solid black; */
+}
+
+#menus li a {
+    /* border: 1px solid rgb(175, 18, 18); */
+    color: rgb(255, 255, 255);
+    display: block;
+    text-decoration: none;
+    padding: 4px 15px;
+    border-radius: 10px;
+}
+
+#menus li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(148, 148, 148);
+}
+
+/* Home */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 200px;
+    height: 720px;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url('../Images/back3.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 108%;
+    z-index: -1;
+    opacity: 0.92;
+}
+
+/* Heading  */
+#home h1 {
+    color: white;
+    text-align: center;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+/* Services  */
+#ser {
+    display: flex;
+    /* border: 2px solid black; */
+}
+
+.box {
+    /* display: flex; */
+    /* border: 2px solid rgb(173, 28, 28); */
+    margin: 5px;
+    border-radius: 25px;
+    background-color: rgb(221, 221, 221);
+    padding: 20px;
+}
+
+.box img {
+    height: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* CLIENTS  */
+
+.members
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.client{
+   padding: 50px;
+}
+.client img{
+    height: 120px;
+    width: 130px;
+}
+
+
+/* Re-sueable */
+.h-primary {
+    font-size: 2.9rem;
+    padding: 10px;
+}
+
+.h-secondary {
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.btn {
+    padding: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    color: white;
+    margin: 20px;
+    margin-bottom: 50px;
+    background-color: rgb(148, 148, 148);
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}

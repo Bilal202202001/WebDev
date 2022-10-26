@@ -1,0 +1,94 @@
+body {}
+
+/* NavBar */
+#navbar::before {}
+
+#navbar {
+
+    flex-direction: column;
+}
+
+/* Logo  */
+#logo {}
+
+#logo img {}
+
+/* Menus  */
+#menus {}
+
+#menus li {
+    font-size: 0.5rem;
+}
+
+#menus li a {
+    padding: 2px 8px;
+
+}
+
+#menus li a:hover {}
+
+/* Home */
+
+#home {
+    /* height: 434px; */
+    height: 555px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#home::before {
+
+    /* height: 65%; */
+    height: 61%;
+    width: 100%;
+}
+
+/* Heading  */
+#home h1 {
+
+    font-size: 1.2rem;
+}
+
+#home p {
+
+    font-size: 0.6rem;
+    width: 300px;
+}
+
+/* Services  */
+#ser {
+
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.box {}
+
+.box img {}
+
+/* CLIENTS  */
+
+.members {
+
+    flex-direction: column;
+}
+
+.client {}
+
+.client img {
+    display: block;
+    margin: auto;
+}
+
+
+/* Re-sueable */
+.h-primary {}
+
+.h-secondary {}
+
+.btn {
+    
+}
+
+.center {}
